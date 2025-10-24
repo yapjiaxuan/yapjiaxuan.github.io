@@ -6,12 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox2</title>
     <style>
+        body {
+            background: #f6f5ef;
+        }
+
         .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .middle {
             display: flex;
         }
 
-        .container .logo img {
-            width: 200px;
+        .right {
+            display: flex;
         }
     </style>
 
@@ -21,57 +31,27 @@
 
     <div class="container">
 
-        <div class="logo">
+        <div class="left">
             <img src="image/elementra.png" alt="elementra">
         </div>
 
-        <div class="home">
-            <p>
-                Home
-            </p>
+        <div class="middle">
+            <div class="home">Home</div>
+            <div class="services">Services</div>
+            <div class="work">Work</div>
+            <div class="project">Project Details</div>
+            <div class="contact">Contact</div>
         </div>
 
-        <div class="services">
-            <p>
-                Services
-            </p>
-        </div>
-
-        <div class="work">
-            <p>
-                Work
-            </p>
-        </div>
-
-        <div class="project">
-            <p>
-                Project Details
-            </p>
-        </div>
-
-        <div class="contact">
-            <p>
-                Contact
-            </p>
-        </div>
-
-        <div class="phone">
-            <img src="image/phone.png" alt="phone">
-        </div>
-
-        <div class="number">
-            <p>
-                555-123-4567
-            </p>
-        </div>
-
-        <div class="button">
-            <p>
-                contact
-            </p>
+        <div class="right">
+            <div class="phone">
+                <img src="image/phone.png" alt="phone">
+                <div class="number">555-123-4567
+                </div>
+                <div class="button">Contact</div>
+            </div>
         </div>
     </div>
-
 </body>
 
 </html>
