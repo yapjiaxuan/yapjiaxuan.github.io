@@ -12,16 +12,57 @@
 
         .container {
             display: flex;
+            font-family: 'Oxygen', sans-serif;
             justify-content: space-between;
             align-items: center;
+            padding: 10px 60px;
+            background-color: white;
         }
+
+        .left img {
+            width: 200px;
+        }
+
 
         .middle {
             display: flex;
+            column-gap: 30px;
+            font-weight: bold;
+            margin-left: 50px;
         }
 
         .right {
             display: flex;
+            align-items: center;
+            margin-right: -250px;
+        }
+
+        .right img {
+            width: 30px;
+        }
+
+        .number {
+            font-weight: bold;
+            margin-left: 8px;
+            margin-right: 50px;
+        }
+
+        .button {
+            background: #f9612b;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 12px 18px;
+            margin-right: 20px;
+        }
+
+        .container2 {
+            display: flex;
+            font-family: 'Oxygen', sans-serif;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+            padding: 10px 150px;
+            background-color: white;
         }
     </style>
 
@@ -44,14 +85,33 @@
         </div>
 
         <div class="right">
-            <div class="phone">
-                <img src="image/phone.png" alt="phone">
-                <div class="number">555-123-4567
-                </div>
-                <div class="button">Contact</div>
-            </div>
+            <img src="image/phone.png" alt="phone">
+            <div class="number">555-123-4567</div>
         </div>
+
+        <div class="button">Contact</div>
+
     </div>
+
+    <div class="container2">
+
+        <div class="left2">
+            <img src="image/elementra.png" alt="elementra">
+        </div>
+
+        <div class="right2">
+            <img src="image/phone.png" alt="phone">
+            <div class="number">555-123-4567</div>
+        </div>
+
+        <div class="button2">Contact</div>
+
+    </div>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
 </body>
 
 </html>
