@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox2</title>
+    <style>
+        body {
+            background: #f6f5ef;
+        }
+
+        .container {
+            display: flex;
+            font-family: 'Oxygen', sans-serif;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+            background-color: white;
+        }
+
+        .left img {
+            width: 200px;
+        }
+
+
+        .middle {
+            display: flex;
+            column-gap: 30px;
+            font-weight: bold;
+            margin-left: 50px;
+        }
+
+        .home:hover {
+            color: #f9612b;
+        }
+
+        .services:hover {
+            color: #f9612b;
+        }
+
+        .work:hover {
+            color: #f9612b;
+        }
+
+        .project:hover {
+            color: #f9612b;
+        }
+
+        .contact:hover {
+            color: #f9612b;
+        }
+
+        .button:hover {
+            background: #e05827;
+        }
+
+
+        .right {
+            display: flex;
+            align-items: center;
+            margin-right: -250px;
+        }
+
+        .right img {
+            width: 30px;
+        }
+
+        .number {
+            font-weight: bold;
+            margin-left: 8px;
+            margin-right: 50px;
+        }
+
+        .button {
+            background: #f9612b;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 12px 18px;
+            margin-right: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left">
+            <img src="image/elementra.png" alt="elementra">
+        </div>
+
+        <div class="middle">
+            <div class="home">Home</div>
+            <div class="services">Services</div>
+            <div class="work">Work</div>
+            <div class="project">Project Details</div>
+            <div class="contact">Contact</div>
+        </div>
+
+        <div class="right">
+            <img src="image/phone.png" alt="phone">
+            <div class="number">555-123-4567</div>
+        </div>
+
+        <div class="button">Contact</div>
+
+    </div>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+</body>
+
+</html>
