@@ -61,17 +61,20 @@
         .right {
             display: flex;
             align-items: center;
-            margin-right: -15%;
+            justify-content: flex-end;
+            column-gap: 10px;
 
         }
 
         .right img {
             width: 30px;
+
         }
 
         .number {
             font-weight: bold;
             margin-right: 10px;
+
         }
 
         .right .button {
@@ -87,9 +90,37 @@
         }
 
         @media screen and (max-width:1180px) {
-            .hamburger {
+            .hamburger img {
                 display: block;
+                margin-right: -50px;
+            }
 
+            .right {
+                justify-content: flex-end;
+                column-gap: 10px;
+
+            }
+
+            .right .button {
+                display: none;
+            }
+
+            .middle {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width:780px) {
+            .right .number {
+                display: none;
+            }
+
+            .right .phone {
+                display: none;
+            }
+
+            .hamburger img {
+                margin-right: auto;
             }
 
         }
@@ -117,14 +148,16 @@
         </div>
 
         <div class="right">
-            <img src="image/phone.png" alt="phone">
+            <div class="phone">
+                <img src="image/phone.png" alt="phone">
+            </div>
             <div class="number">555-123-4567</div>
             <div class="button">Contact</div>
+            <div class="hamburger">
+                <img src="image/bar.png" alt="hambuger bar">
+            </div>
         </div>
 
-        <div class="hamburger">
-            <img src="image/bar.png" alt="hambuger bar">
-        </div>
 
     </div>
 
