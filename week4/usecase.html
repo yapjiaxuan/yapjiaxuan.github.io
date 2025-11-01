@@ -81,6 +81,50 @@
         .centerright p {
             font-size: 18px;
         }
+
+        .bottom {
+            display: flex;
+            margin: 0px 40px;
+            gap: 70px;
+            background: #191a23;
+            padding: 30px 50px;
+            padding-bottom: 50px;
+            border-radius: 50px;
+
+        }
+
+        .bottomleft .featured {
+            background-color: #b9ff66;
+            font-size: 30px;
+            font-weight: 500;
+            display: inline-block;
+            padding: 2px 5px;
+            border-radius: 10px;
+        }
+
+        .bottomleft .scaling {
+            font-size: 20px;
+            max-width: 280px;
+            color: #ffffff;
+        }
+
+        .bottomleft .description {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            max-width: 480px;
+            color: #ffffff;
+        }
+
+        .bottomleft .read {
+            color: #b9ff66;
+            text-decoration: none;
+        }
+
+        .bottomright {
+            display: grid;
+            background: #ffffff;
+
+        }
     </style>
 
 </head>
@@ -145,17 +189,47 @@
     </div>
 
     <div class="bottom">
-        <div>
-            <p>
+        <div class="bottomleft">
+            <p class="featured">
                 Featured Success Story
             </p>
-            <p>
+
+            <p class="scaling">
                 Scaling Success for a Leading E-Commerce Brand
             </p>
-            <p>
+
+            <p class="description">
                 Through a comprehensive SEO and PPC strategy,we helped this e-commerce brand increase visibility,drive
                 traffic,and boost sales.
             </p>
+
+            <img src="image/arrow.png" alt="arrow">
+
+            <a href="#" class="read">Read</a>
+
+        </div>
+
+        <div class="bottomright">
+            <div class="box">
+                <h3>200%</h3>
+                <p>increase in organic traffic</p>
+            </div>
+
+            <div class="box">
+                <h3>150%</h3>
+                <p>rise in online sales</p>
+            </div>
+
+            <div class="box">
+                <h3>75%</h3>
+                <p>reduction in cost-per-click</p>
+            </div>
+
+            <div class="box">
+                <h3>300%</h3>
+                <p>improvement in conversion rate</p>
+            </div>
+
         </div>
     </div>
 
