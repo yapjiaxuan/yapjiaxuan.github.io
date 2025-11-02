@@ -66,7 +66,7 @@
         }
 
         .center img {
-            width: 400px;
+            width: 90%;
         }
 
         .centerright {
@@ -85,9 +85,9 @@
         .bottom {
             display: flex;
             margin: 0px 40px;
-            gap: 70px;
+            justify-content: space-between;
             background: #191a23;
-            padding: 30px 50px;
+            padding: 30px 65px;
             padding-bottom: 50px;
             border-radius: 50px;
 
@@ -100,11 +100,12 @@
             display: inline-block;
             padding: 2px 5px;
             border-radius: 10px;
+
         }
 
         .bottomleft .scaling {
-            font-size: 20px;
-            max-width: 280px;
+            font-size: 25px;
+            max-width: 350px;
             color: #ffffff;
         }
 
@@ -118,11 +119,167 @@
         .bottomleft .read {
             color: #b9ff66;
             text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .bottomleft img {
+            width: 40px;
         }
 
         .bottomright {
-            display: grid;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            max-width: 40%;
+            justify-content: end;
+
+        }
+
+        .bottomright .box {
             background: #ffffff;
+            width: 28%;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+
+        }
+
+        .bottomright .box h3 {
+            font-size: 30px;
+        }
+
+        .bottomright .box p {
+            font-size: 15px;
+        }
+
+        .right .hamburger img {
+            width: 30px;
+            display: none;
+        }
+
+        .bottomleft .star {
+            display: none;
+        }
+
+        .centerleft h1 {
+            display: none;
+        }
+
+        .read2 {
+            display: none;
+        }
+
+        .bottomleft .featured1 {
+            display: none;
+            color: #b9ff66;
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        .featured1 img {
+            margin-left: -23px;
+            width: 20px;
+        }
+
+        @media screen and (max-width:1130px) {
+
+            .about,
+            .services,
+            .use-cases,
+            .pricing,
+            .blog {
+                display: none;
+            }
+
+            .right .hamburger img {
+                display: block;
+            }
+
+            .center {
+                flex-direction: column;
+            }
+
+            .centerleft h1 {
+                display: block;
+                font-size: 50px;
+                font-weight: 500;
+            }
+
+            .centerright h1 {
+                display: none;
+
+            }
+
+            .center background {
+                display: none;
+            }
+
+            .bottom {
+                flex-direction: column;
+            }
+
+            .bottomleft .description {
+                font-size: 14px;
+                font-weight: 10;
+            }
+
+            .bottomright {
+                flex-direction: column;
+                max-width: none;
+            }
+
+            .bottomleft .read {
+                display: none;
+
+            }
+
+            .read2 {
+                display: block;
+                color: #b9ff66;
+                text-decoration: none;
+                display: inline-flex;
+                align-items: center;
+            }
+
+            .read2 img {
+                width: 40px;
+            }
+
+            .bottomright .box {
+                width: 90%;
+
+            }
+
+            .bottomright .box h3 {
+                font-size: 32px;
+            }
+
+            .bottomright .box p {
+                font-size: 18px;
+            }
+
+        }
+
+        @media screen and (max-width:780px) {
+            .request-quote {
+                display: none;
+            }
+
+            .bottomleft .featured {
+                display: none;
+            }
+
+            .bottomleft .featured1 {
+                display: block;
+            }
+
+            .bottomleft .description {
+                font-size: 13px;
+                font-weight: 10;
+            }
+
+
 
         }
     </style>
@@ -168,10 +325,18 @@
         <div class="request-quote">
             <p>Request a quote</p>
         </div>
+
+        <div class="hamburger">
+            <img src="image/hamburger.png">
+        </div>
     </div>
 
     <div class="center">
         <div class="centerleft">
+            <h1>
+                Proven Success Stories
+            </h1>
+
             <img src="image/illustration.png" alt="illustration">
         </div>
 
@@ -190,9 +355,17 @@
 
     <div class="bottom">
         <div class="bottomleft">
+
+            <p class="featured1">
+                <img src="image/star.png" alt="star">
+                FEATURED
+            </p>
+
+
             <p class="featured">
                 Featured Success Story
             </p>
+
 
             <p class="scaling">
                 Scaling Success for a Leading E-Commerce Brand
@@ -203,9 +376,11 @@
                 traffic,and boost sales.
             </p>
 
-            <img src="image/arrow.png" alt="arrow">
+            <div class="read">
+                <img src="image/arrow.png" alt="arrow">
 
-            <a href="#" class="read">Read</a>
+                <a href="#" class="read">Read</a>
+            </div>
 
         </div>
 
@@ -222,7 +397,7 @@
 
             <div class="box">
                 <h3>75%</h3>
-                <p>reduction in cost-per-click</p>
+                <p>reduction in cost-per-click(CPC)</p>
             </div>
 
             <div class="box">
@@ -230,8 +405,13 @@
                 <p>improvement in conversion rate</p>
             </div>
 
+            <div class="read2">
+                <img src="image/arrow.png" alt="arrow">
+
+                <a href="#" class="read2">Read</a>
+            </div>
+
         </div>
-    </div>
 
 </body>
 
