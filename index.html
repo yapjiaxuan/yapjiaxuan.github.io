@@ -7,7 +7,7 @@
     <title>Personal Page</title>
     <style>
         body {
-            font-family: "Caveat Brush", cursive;
+            font-family: "Caveat Brush", "cursive";
             background-image: url("image/background.jpg");
             background-size: cover;
             background-repeat: no-repeat;
@@ -18,7 +18,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 10px 20px;
+            padding: 5px 20px;
             background: #cab699;
         }
 
@@ -38,7 +38,7 @@
 
         .content img {
             width: 150px;
-            margin-top: 30px;
+            margin-top: 20px;
             border-radius: 100px;
         }
 
@@ -51,6 +51,80 @@
             font-size: 20px;
             padding: 0px 300px;
             color: rgb(92, 92, 92);
+        }
+
+        .box {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: -10px;
+            text-align: center;
+        }
+
+        .box img {
+            width: 20px;
+        }
+
+        .box2 img {
+            width: 20px;
+        }
+
+        .box2 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .box a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(115, 0, 255);
+        }
+
+        .box2 a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(115, 0, 255);
+        }
+
+        .week h1 {
+            border-bottom: 2px #000000 solid;
+            width: 250px;
+        }
+
+        .week5 h1 {
+            border-bottom: 2px #000000 solid;
+            width: 1180px;
+        }
+
+        .week {
+            background-color: rgba(255, 255, 255, 0.5);
+            margin: 5px;
+            padding: 0px 30px;
+            border-radius: 20px;
+        }
+
+        .week5 {
+            background-color: rgba(255, 255, 255, 0.5);
+            margin: 5px;
+            padding: 0px 30px;
+            border-radius: 20px;
+        }
+
+        .footer {
+            background: #cab699;
+            text-align: center;
+            padding: 8px 0;
+            margin-top: 10px;
+
+        }
+
+        .icon2 img {
+            width: 25px;
+            margin-top: 20px;
         }
     </style>
 
@@ -96,6 +170,67 @@
             Hi, I'm Yap Jia Xuan. I'm a web designer and also an introvert who enjoys calm moments, good food, and
             music. I love playing badminton with friends and sometimes the piano when I heard the songs I like.Welcome
             to my personal page!
+        </p>
+    </div>
+
+    <div class="box">
+        <div class="week">
+            <h1>
+                <img src="image/calendar.png" alt="calender">
+                Week 2
+            </h1>
+            <a href="http://127.0.0.1:5500/week2/button.html" target="_blank">Exercise 1</a>
+            <a href="http://127.0.0.1:5500/week2/selfintro.html" target="_blank">Exercise 2</a>
+        </div>
+
+        <div class="week">
+            <h1>
+                <img src="image/calendar.png" alt="calender">
+                Week 3
+            </h1>
+            <a href="http://127.0.0.1:5500/week3/flexbox1.html" target="_blank">Exercise 1</a>
+            <a href="http://127.0.0.1:5500/week3/flexbox2.html" target="_blank">Exercise 2</a>
+        </div>
+
+        <div class="week">
+            <h1>
+                <img src="image/calendar.png" alt="calender">
+                Week 4
+            </h1>
+            <a href="http://127.0.0.1:5500/week4/menu.html" target="_blank">Exercise 1</a>
+            <a href="http://127.0.0.1:5500/week4/usecase.html" target="_blank">Exercise 2</a>
+        </div>
+
+    </div>
+
+    <div class="box2">
+        <div class="week5">
+            <h1>
+                <img src="image/calendar.png" alt="calender">
+                Week 5
+            </h1>
+            <a href="#">Exercise 1</a>
+            <a href="#">Exercise 2</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="icon2">
+            <a href="https://www.instagram.com/jx._.666?igsh=MTFoYnNsMGh0aGlxag==" target="_blank">
+                <img src="image/instagram.png" alt="instagram">
+            </a>
+
+            <a href="https://wa.me/qr/5ZUX6YZGGYV4E1" target="_blank">
+                <img src="image/whatsapp.png" alt="whatsapp">
+            </a>
+
+            <a href="https://github.com/yapjiaxuan/yapjiaxuan.github.io" target="_blank">
+                <img src="image/github.png" alt="github">
+            </a>
+        </div>
+
+        <p class="disclaimer">
+            © 2025 Yap Jia Xuan. All rights reserved.
         </p>
     </div>
 
