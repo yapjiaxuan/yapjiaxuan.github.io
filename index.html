@@ -97,7 +97,7 @@
 
         .week5 h1 {
             border-bottom: 2px #000000 solid;
-            width: 1180px;
+            width: 100%;
         }
 
         .week {
@@ -109,22 +109,63 @@
 
         .week5 {
             background-color: rgba(255, 255, 255, 0.5);
-            margin: 5px;
+            margin: 5px auto;
             padding: 0px 30px;
             border-radius: 20px;
+            width: 78%;
         }
 
         .footer {
             background: #cab699;
             text-align: center;
-            padding: 8px 0;
-            margin-top: 10px;
+            padding: 5px 0;
+            margin-top: 15px;
 
         }
 
         .icon2 img {
             width: 25px;
-            margin-top: 20px;
+            margin-top: 10px;
+        }
+
+        .phone {
+            display: none;
+        }
+
+        @media screen and (max-width:1030px) {
+            .box {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .week5 {
+                width: 250px;
+            }
+
+            .content p {
+                padding: 0px 200px;
+            }
+        }
+
+        @media screen and (max-width:780px) {
+            .content img {
+                width: 250px;
+                border-radius: 200px;
+            }
+
+            .desktop {
+                display: none;
+            }
+
+            .phone {
+                display: block;
+            }
+
+            .phone h1 {
+                font-size: 40px;
+            }
+
+
         }
     </style>
 
@@ -157,14 +198,27 @@
     </div>
 
     <div class="content">
-        <img src="image/profile.jpg" alt="profile">
-        <h1>
-            Yap Jia Xuan
-        </h1>
 
-        <h3>
-            Web Publishing
-        </h3>
+        <div class="phone">
+            <h1>
+                Yap Jia Xuan
+            </h1>
+
+            <h3>
+                Web Publishing
+            </h3>
+        </div>
+
+        <img src="image/profile.jpg" alt="profile">
+        <div class="desktop">
+            <h1>
+                Yap Jia Xuan
+            </h1>
+
+            <h3>
+                Web Publishing
+            </h3>
+        </div>
 
         <p>
             Hi, I'm Yap Jia Xuan. I'm a web designer and also an introvert who enjoys calm moments, good food, and
