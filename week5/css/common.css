@@ -46,7 +46,7 @@ body {
 .pricing:hover,
 .blog:hover {
     background-color: #b9ff66;
-    padding: 0px 5px;
+    padding: 10px 10px;
     border-radius: 10px;
 }
 
@@ -55,7 +55,12 @@ body {
 .use-cases,
 .pricing,
 .blog {
-    padding: 0px 5px;
+    padding: 10px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
 
 @media screen and (max-width:1130px) {
