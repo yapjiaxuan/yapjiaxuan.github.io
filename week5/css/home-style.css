@@ -54,7 +54,6 @@
 
 .photo img {
     width: 100px;
-    height: auto;
     filter: grayscale(100%);
 }
 
@@ -63,8 +62,6 @@
     margin: 50px 40px;
     display: none;
 }
-
-
 
 @media screen and (max-width:1130px) {
     .picture {
