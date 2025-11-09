@@ -17,6 +17,11 @@ body {
     margin-left: 40px;
 }
 
+.logo a {
+    display: flex;
+    align-items: center;
+}
+
 .container .logo img {
     width: 25px;
 }
