@@ -43,6 +43,7 @@ body {
 .right .hamburger img {
     width: 30px;
     display: none;
+    margin-right: 20px;
 }
 
 .about:hover,
