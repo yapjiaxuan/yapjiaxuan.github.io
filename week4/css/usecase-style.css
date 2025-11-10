@@ -257,6 +257,7 @@ body {
 @media screen and (max-width:780px) {
     .center {
         background: none;
+        padding: 0;
 
     }
 
