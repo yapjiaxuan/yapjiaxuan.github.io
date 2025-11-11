@@ -1,0 +1,24 @@
+.header {
+    text-align: center;
+}
+
+.relative {
+    display: flex;
+}
+
+.relative p {
+    position: relative;
+    bottom: 80px;
+    background: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 100px;
+    width: 200px;
+    font-size: 20px;
+
+}
+
+.relative img {
+    width: 90%;
+    border-radius: 20px;
+}
