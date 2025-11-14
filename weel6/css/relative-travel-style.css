@@ -50,4 +50,48 @@
      width: 120px;
  }
 
- @media screen and (max-width:1240) {}
+ @media screen and (max-width:1240px) {
+     .travel {
+         justify-content: start;
+         margin-left: 50px;
+     }
+ }
+
+ @media screen and (max-width:1000px) {
+     .travel {
+         flex-direction: column;
+         margin-left: 0px;
+         gap: 50px;
+         align-items: center;
+     }
+
+     .box {
+         width: 35%;
+     }
+
+ }
+
+ @media screen and (max-width:750px) {
+     .box {
+         width: 50%;
+
+     }
+
+     .travel {
+         align-items: start;
+         margin-left: 20px;
+     }
+
+ }
+
+ @media screen and (max-width:500px) {
+     .travel {
+         margin-left: 20px;
+
+     }
+
+     .box {
+         width: 55%;
+     }
+
+ }
