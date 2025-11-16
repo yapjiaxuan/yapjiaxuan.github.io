@@ -41,14 +41,16 @@ body {
 .submenu {
     display: none;
     position: absolute;
-    top: 20px;
-    width: 160px;
-
+    top: 30px;
+    width: 130px;
+    background: #b9ff66;
+    border-radius: 10px;
 }
 
 .submenu a {
     display: block;
-    padding: 8px 0px;
+    padding: 8px 8px;
+
 }
 
 .rightmenu:hover .submenu {
