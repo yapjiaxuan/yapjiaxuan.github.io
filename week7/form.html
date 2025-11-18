@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/form-style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            Registration Form
+        </h1>
+
+        <form>
+
+            <div>
+                <input type="text" placeholder="First name:" id="fname" name="fname" required>
+
+                <input type="text" placeholder="Last Name:" id="lname" name="lname" required>
+            </div>
+
+            <div class="email">
+                <input for="email" placeholder="Email Address:" id="email" name="email" required>
+            </div>
+
+            <div>
+                <input type="url" placeholder="Homepage URL:" id="homeurl" name="homeurl">
+                <input type="text" placeholder="Favourite Colors:" id="favcolor" name="favcolor">
+            </div>
+
+            <div>
+                <label for="date">Date of Birth:</label>
+                <input type="date" id="date" name="date" required>
+                <p> <label for="bio">Self Introduction:</label></p>
+                <textarea id="bio" name="bio" rows="4" cols="50">
+            </textarea>
+            </div>
+
+            <input class="submit" type="submit" value="submit">
+
+        </form>
+    </div>
+</body>
+
+</html>

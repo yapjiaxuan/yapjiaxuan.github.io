@@ -1,0 +1,56 @@
+.container {
+    background: rgb(255, 227, 174);
+    width: 35%;
+}
+
+div {
+    margin: 20px;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+#fname {
+    margin-right: 30px;
+    padding: 10px 30px 10px 5px;
+    border-radius: 20px;
+}
+
+#homeurl {
+    margin-right: 30px;
+    padding: 10px 30px 10px 5px;
+    border-radius: 20px;
+}
+
+#lname {
+    padding: 10px 30px 10px 5px;
+    border-radius: 20px;
+}
+
+#email {
+    padding: 10px 30px 10px 5px;
+    border-radius: 20px;
+}
+
+#favcolor {
+    padding: 10px 30px 10px 5px;
+    border-radius: 20px;
+}
+
+#bio {
+    padding: 30px 25px;
+}
+
+#date {
+    padding: 10px 30px 10px 5px;
+    border-radius: 20px;
+}
+
+.submit {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background: rgb(255, 0, 0);
+    color: white;
+    border-radius: 20px;
+}
