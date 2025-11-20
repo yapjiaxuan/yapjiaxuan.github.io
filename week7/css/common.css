@@ -1,0 +1,119 @@
+body {
+    font-family: 'space grotesk', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+.container .logo {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+}
+
+.container .logo img {
+    width: 25px;
+}
+
+.right {
+    display: flex;
+    column-gap: 40px;
+    justify-content: right;
+    margin-top: -76px;
+    align-items: center;
+}
+
+.rightmenu {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    width: 130px;
+    background: #b9ff66;
+    border-radius: 10px;
+}
+
+.submenu a {
+    display: block;
+    padding: 8px 8px;
+
+}
+
+.rightmenu:hover .submenu {
+    display: block;
+
+}
+
+.right .request-quote {
+    border: 1.5px solid #000;
+    padding: 1px 28px 1px 28px;
+    border-radius: 13px;
+}
+
+.right .hamburger img {
+    width: 30px;
+    display: none;
+    margin-right: 20px;
+}
+
+.about:hover,
+.services:hover,
+.use-cases:hover,
+.pricing:hover,
+.blog:hover {
+    background-color: #b9ff66;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.about,
+.services,
+.use-cases,
+.pricing,
+.blog {
+    padding: 10px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (max-width:1130px) {
+
+    .about,
+    .services,
+    .use-cases,
+    .pricing,
+    .blog {
+        display: none;
+    }
+
+    .right .hamburger img {
+        display: block;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .right {
+        margin-top: -60px;
+    }
+
+    .request-quote {
+        display: none;
+    }
+}

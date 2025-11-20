@@ -1,0 +1,95 @@
+.word {
+    max-width: 430px;
+    margin: 50px 40px;
+
+}
+
+.word .navigating h1 {
+
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 60px;
+
+}
+
+.word .navigating p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.picture {
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    margin-top: -370px;
+}
+
+.picture img {
+    width: 100%;
+
+}
+
+.button {
+    justify-content: left;
+    margin-left: 40px;
+    margin-top: -90px;
+}
+
+.button p {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 60px 30px 40px;
+}
+
+.photo img {
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.paragraph {
+    max-width: 430px;
+    margin: 50px 40px;
+    display: none;
+}
+
+@media screen and (max-width:1130px) {
+    .picture {
+        justify-content: center;
+        margin: auto;
+    }
+
+    .navigating p {
+        display: none;
+    }
+
+    .button {
+        margin-top: auto;
+    }
+
+    .paragraph {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:780px) {
+    .button {
+        justify-items: center;
+        margin: auto;
+    }
+
+    .button p {
+        padding: 20px 80px;
+    }
+}

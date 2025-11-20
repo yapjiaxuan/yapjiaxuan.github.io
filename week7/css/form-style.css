@@ -1,10 +1,10 @@
 .container {
     background: rgb(255, 227, 174);
-    width: 35%;
+    width: 460px;
 }
 
 div {
-    margin: 20px;
+    margin: 10px;
 }
 
 h1 {
@@ -13,12 +13,14 @@ h1 {
 
 #fname {
     margin-right: 30px;
+    margin-bottom: 10px;
     padding: 10px 30px 10px 5px;
     border-radius: 20px;
 }
 
 #homeurl {
     margin-right: 30px;
+    margin-bottom: 10px;
     padding: 10px 30px 10px 5px;
     border-radius: 20px;
 }
@@ -30,6 +32,7 @@ h1 {
 
 #email {
     padding: 10px 30px 10px 5px;
+    margin-bottom: 10px;
     border-radius: 20px;
 }
 
@@ -40,15 +43,18 @@ h1 {
 
 #bio {
     padding: 30px 25px;
+    margin-bottom: 10px;
 }
 
 #date {
     padding: 10px 30px 10px 5px;
+    margin-bottom: 10px;
     border-radius: 20px;
 }
 
 .submit {
     margin-left: 20px;
+    margin-bottom: 10px;
     padding: 10px 20px;
     background: rgb(255, 0, 0);
     color: white;
