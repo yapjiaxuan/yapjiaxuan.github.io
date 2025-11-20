@@ -18,12 +18,15 @@
                 <h1>Positivus</h1>
             </a>
         </div>
+
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
     </div>
 
-    <div class="right">
+
+    <div class="right" id="mobile-menu">
 
         <div class="rightmenu">
-            <a class="about" href="#">About us</a>
+            <a class="menu-item" href="#">About us</a>
             <div class="submenu">
                 <a href="#">Our Impact</a>
                 <a href="#">Our Journey</a>
@@ -31,27 +34,24 @@
         </div>
 
         <div class="rightmenu">
-            <a class="services" href="#">Services</a>
+            <a class="menu-item" href="#">Services</a>
             <div class="submenu">
                 <a href="#">Seo Process</a>
                 <a href="#">Other Services</a>
             </div>
         </div>
 
-        <a class="use-cases" href="usecase.html">Use Cases</a>
+        <a class="menu-item" href="usecase.html">Use Cases</a>
 
-        <a class="pricing" href="#">Pricing</a>
+        <a class="menu-item" href="#">Pricing</a>
 
-        <a class="blog" href="#">Blog</a>
+        <a class="menu-item" href="#">Blog</a>
 
 
         <div class="request-quote">
             <p>Request a quote</p>
         </div>
 
-        <div class="hamburger">
-            <img src="image/hamburger.png">
-        </div>
     </div>
 
     <div class="word">
@@ -94,6 +94,23 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Space+Grotesk:wght@300..700&display=swap"
         rel="stylesheet">
+
+    <script>
+        const toggleButton = document.getElementById("menu-toggle");
+        const right = document.getElementById("mobile-menu");
+
+        toggleButton.addEventListener("click", () => {
+            right.classList.toggle("active");
+
+            // Change icon
+            if (right.classList.contains("active")) {
+                toggleButton.innerHTML = "&times;"; // × (cross)
+            } else {
+                toggleButton.innerHTML = "&#9776;"; // ☰ (hamburger)
+            }
+        });
+    </script>
+
 </body>
 
 </html>
