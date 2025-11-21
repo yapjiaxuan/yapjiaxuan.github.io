@@ -169,7 +169,9 @@ body {
     color: rgb(182, 123, 255);
 }
 
-
+.box3 a:hover {
+    color: rgb(182, 123, 255);
+}
 
 @media screen and (max-width:1030px) {
     .box {
