@@ -61,6 +61,10 @@ body {
     width: 20px;
 }
 
+.box3 img {
+    width: 20px;
+}
+
 .box2 {
     display: flex;
     text-align: center;
@@ -84,12 +88,33 @@ body {
     color: rgb(115, 0, 255);
 }
 
+.box3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 20px;
+    column-gap: 20px;
+}
+
+.box3 a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(115, 0, 255);
+}
+
 .week h1 {
     border-bottom: 2px #000000 solid;
     width: 100%;
 }
 
 .week5 h1 {
+    border-bottom: 2px #000000 solid;
+    width: 100%;
+}
+
+.week7 h1 {
     border-bottom: 2px #000000 solid;
     width: 100%;
 }
@@ -111,6 +136,14 @@ body {
 
 }
 
+.week7 {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0px 30px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 35%;
+}
+
 .footer {
     background: #cab699;
     text-align: center;
@@ -127,6 +160,8 @@ body {
 .phone {
     display: none;
 }
+
+
 
 @media screen and (max-width:1030px) {
     .box {
