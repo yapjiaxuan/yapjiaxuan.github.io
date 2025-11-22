@@ -24,16 +24,24 @@
 
             <div class="email">
                 <input for="email" placeholder="Email Address:" id="email" name="email" required>
-            </div>
 
-            <div>
                 <input type="url" placeholder="Homepage URL:" id="homeurl" name="homeurl">
-                <input type="text" placeholder="Favourite Colors:" id="favcolor" name="favcolor">
             </div>
 
             <div>
-                <label for="date">Date of Birth:</label>
-                <input type="date" id="date" name="date" required>
+                <p>Your favourite color:</p>
+                <input type="radio" id="blue" name="favcolor" value="Blue">
+                <label for="Blue">Blue</label>
+
+                <br> <input type="radio" id="black" name="favcolor" value="Black">
+                <label for="Black">Black</label>
+
+
+            </div>
+
+            <div>
+                <label for="date">Date of Birth:</label><br>
+                <br><input type="date" id="date" name="date" required>
                 <p> <label for="bio">Self Introduction:</label></p>
                 <textarea id="bio" name="bio" rows="4" cols="50">
             </textarea>
